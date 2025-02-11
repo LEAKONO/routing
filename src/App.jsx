@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import Home from '.pages/Home'
+import Home from './pages/Home'
 import About from './pages/About'
-import Skills from '.pages/Skills'
+import Skills from './pages/Skills'
 import Services from './pages/Services'
 import Navbar from './pages/Navbar'
 
