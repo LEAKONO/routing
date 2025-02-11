@@ -8,7 +8,7 @@ import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div className=" flex  bg-blue-500">
+    <div>
       <Router>
         <Navbar />
   
