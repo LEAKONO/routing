@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaPython, FaNodeJs } from 'react-icons/fa';
-import { SiDjango, SiMysql, SiMongodb, SiTailwindcss } from 'react-icons/si';
+import { SiDjango, SiMysql, SiMongodb, SiTailwindcss,SiPostman,SiGit } from 'react-icons/si';
 
 export default function Skills() {
   return (
@@ -47,6 +47,14 @@ export default function Skills() {
         <li className="flex flex-col items-center">
           <SiTailwindcss size={40} color="blue" />
           <span>Tailwind</span>
+        </li>
+        <li className="flex flex-col items-center">
+          <SiPostman size={40} color="orange" />
+          <span>Postman</span>
+        </li>
+        <li className="flex flex-col items-center">
+          <SiGit size={40} color="blue" />
+          <span>Git</span>
         </li>
       </ul>
     </section>
