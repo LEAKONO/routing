@@ -1,28 +1,28 @@
-import { useState } from 'react'
-import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
-import Home from './pages/Home'
-import About from './pages/About'
-import Skills from './pages/Skills'
-import Services from './pages/Services'
-import Navbar from './pages/Navbar'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Skills from "./pages/Skills";
+import Services from "./pages/Services";
+import Navbar from "./pages/Navbar";
+import Contact from "./pages/Contact";
 
 function App() {
-
   return (
-    <div className="content">
+    <div className=" flex  bg-blue-500">
       <Router>
-      <Navbar/>
-        <Routes>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/skills" component={Skills} />
-          <Route path="/services" component={Services} />
-        </Routes>
+        <Navbar />
+  
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        
       </Router>
-      
     </div>
-    
-  )
+  );
 }
 
-export default App
+export default App;
