@@ -13,6 +13,8 @@ function Navbar() {
             <li><Link to="/skills"className="hover:text-blue-600">Skills</Link></li>
             <li><Link to="/services"className="hover:text-blue-600">Services</Link></li>
             <li> <Link to="/contact"className="hover:text-blue-600">Contact</Link></li>
+            <li> <Link to="/theme"className="hover:text-blue-600">Theme</Link></li>
+
           </ul>
           </div>
         </nav>
